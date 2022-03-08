@@ -2,187 +2,29 @@
    
 /*style sheet*/
 /* header component */
-.header {
-    background-color: white;
-    border: none;
-    position:fixed;
-    width: 100% ;
-    height: 250px;  
-}
-/* logo from image */ 
-.logo {
-    position:absolute;
-    Left: 64%;
-    height: 220px;
-   
-    
-}   
-
-/* navigation buttons container */  
-.inline-block {
-    display: inline-block;
-    padding: 1%;
-}
-/* logo from image */   
-/* navigation buttons individual with text */ 
-.li1, .li2, .li3, .li4{
-    color: black;
-    display: inline-block;
-    padding-right:20px;
-    padding-left: 50px;
-    padding-top: 0px;
-    padding-bottom: 20px;
-    font-size: 30px;
-    font-family:'Montserrat', sans-serif;
-    position: relative;
-    vertical-align: middle;
-    margin: 40px;
- }
-/* container for welcome text */
-.textBox {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
- }
-/* welcome text */ 
-.h1 { 
-    font-family:'Oleo Script', cursive;
-    color: white;
-     font-size: 64px;
-    font-weight: 600;
-}
-/* container for about me text, resume button, and headshot */
-.AboutMe {
-    display:flex;
-    width:fit-content;
-    align-items: center;
-    justify-content: center;
-    background-color: #cedcf5;
-    border: none;
-    padding: 0%;
-   
-}
-.aboutBlock {
-    display: inline-block;
-}
-
-.imageme{
-    max-width: 100%;
-  flex-basis:40%;
-   
-  
-  
-}
-/* personal headshot image */
-
-   
-
-/*container for about me text*/
-.text {
-    width: 60%;
-    padding-left: 20px;
-    padding-right: 100px;
-    }
-
-/* about me text */ 
-.p {
-    font-family:'Montserrat', sans-serif;
-    font-size: 24px;
-    color: white;
-    text-align: left;
-    padding-top: 20%;
-    padding-bottom: 20%;
-    padding-left: 7%;
-    padding-right: 7%;
-}
-/* footer with contact info and social media buttons */
-
-}
-.socialMediaButtons {
-    display: inline-block;
-}
-.h3 { 
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-}
-.right {
-    width: 50%;
-    }
-.left {
-    width: 50%;
-    }
-.column {
-    float: left;
-    }
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-    }
-
-    .h2 {
-    font-size: 40px;
-    font-family:'Montserrat', sans-serif;
-}
-
-
-
-.header2{
-    background-color: #8a9bb9;
-  
-    width: 100%;
-    color:white;
-
-    font-size: 40px;
-}
-
-
-
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
- 
-    color: white;
+.body{background-color: rgb(238, 158, 127);}
+.accordion{ background-color: rgb(240, 195, 136);
+    color: rgb(0, 0, 0);
     cursor: pointer;
     padding: 18px;
     width: 100%;
     text-align: left;
     border: none;
     outline: none;
-    transition: 0.4s;
-    height: 300px;
-    font-size: 30px;
-  }
-  
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .accordion:hover {
-    background-color: #8a9bb9;
+    transition: 0.4s;}
+.card-body
+{font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;
+text-align: center;
+}
+.nav 
+{text-align: center;
+background-color: rgb(240, 195, 136);
 
-  }
-  
-  /* Style the accordion panel. Note: hidden by default */
-  .panel {
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
-  .accordion:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
+}
+.card{background-color: antiquewhite;}
+.btn{background-color: rgb(240, 195, 136);}
+.img
+{ 
 
-    float: right;
-    margin-left: 5px;
-  }
-  
-  .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-  }
-
-.accordion{background-color: #cedcf5;}
-
-
-    
-
-   
+}
